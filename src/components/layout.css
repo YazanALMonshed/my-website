@@ -1,5 +1,7 @@
 html {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -624,71 +626,6 @@ pre tt:after {
   width: 1200px
 }
 
-/* Small Screen */
-@media  (max-width: 767px)  {
-  .container {
-    margin: auto;
-    width: 100%
-
-  }
-
-
-.background-img  {
-  background: url('../images/me.png');
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 100vh;
-}
-
-.background-img .section-header {
-  padding: 30px;
-
-}
-
-.background-img .navbar-home ul li a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-size: 12px;
-}
-
-}
-/* Meduim Screen */
-@media  (min-width: 768px)  and (max-width: 992px)  {
-
-
-}
-/* Max Screen */
-@media  (min-width: 993px)  and (max-width: 1200px ) {
-
-}
-
-
-.background-img  {
-  background: url('../images/me.png');
-  background-size: cover;
-  background-position: 50% 10%;
-
-  height: 100vh;
-}
-
-.background-img .section-header {
-  padding: 30px;
-
-}
-
-.background-img .navbar-home ul {
-
-    list-style-type: none;
-
-}
-
-.background-img .navbar-home ul li {
-    display: inline-block;
-    padding: 30px;
-
-
-}
 
 .background-img .navbar-home ul li a {
   text-decoration: none;
@@ -709,4 +646,135 @@ pre tt:after {
   
 .background-img  .intro-about-me h1 {
   font-size: 3.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Screen */
+@media only screen and (max-width: 767px)  {
+  .container {
+    margin: auto;
+    width: 100%;
+
+  }
+
+
+.background-img  {
+  background: url('../images/me.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+}
+
+.background-img .section-header {
+  padding: 30px;
+
+}
+
+.background-img .navbar-home ul li  {
+  text-decoration: none;
+  color: #000000;
+  /* font-weight: bold; */
+  text-align: center;
+
+}
+.section-header .intro-about-me h1 {
+  font-size: 40px;
+  margin-top: 9.9rem;
+  color: #222;
+}
+.section-header .intro-about-me p {
+  font-size: 20px;
+  margin-left:0.1px;
+  font-weight: bold;
+  margin-top: 0;
+  color: #222;
+}
+}
+/* Meduim Screen */
+@media  (min-width: 768px)  and (max-width: 992px)  {
+
+
+}
+/* Max Screen */
+@media  (min-width: 993px)  and (max-width: 1200px  ) {
+
+}
+
+
+.background-img  {
+  background: url('../images/me.png');
+  background-size: cover;
+  background-position: 50% 10%;
+  height: 100vh;
+  
+}
+
+.background-img .section-header {
+  padding: 30px;
+  color: #222;
+ 
+}
+
+.section-header h1 {
+  position: absolute;
+  top: 65%;
+ 
+}
+
+.section-header p {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  font-size: 1.1rem;
+  font-weight: bold;
+ 
+}
+.background-img .navbar-home ul {
+
+    list-style-type: none;
+
+}
+
+.background-img .navbar-home ul li {
+    display: inline-block;
+    padding: 30px;
+
+    
+
+}
+
+.background-img .navbar-home ul li :hover {
+
+  transition: .2s;
+  color:#999;
+
 }
