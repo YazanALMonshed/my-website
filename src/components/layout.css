@@ -615,11 +615,54 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
+
+
+/* Adding By Me  */
+
+.container {
+  margin: auto;
+  width: 1200px
 }
+
+/* Small Screen */
+@media  (max-width: 767px)  {
+  .container {
+    margin: auto;
+    width: 100%
+
+  }
+
+
+.background-img  {
+  background: url('../images/me.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+}
+
+.background-img .section-header {
+  padding: 30px;
+
+}
+
+.background-img .navbar-home ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+}
+/* Meduim Screen */
+@media  (min-width: 768px)  and (max-width: 992px)  {
+
+
+}
+/* Max Screen */
+@media  (min-width: 993px)  and (max-width: 1200px ) {
+
+}
+
 
 .background-img  {
   background: url('../images/me.png');
@@ -644,6 +687,7 @@ pre tt:after {
     display: inline-block;
     padding: 30px;
 
+
 }
 
 .background-img .navbar-home ul li a {
@@ -658,7 +702,7 @@ pre tt:after {
 }
 
 .background-img  .intro-about-me h1, p  {
-  margin-left: 60px;
+  margin-left: -43px;
   margin-top: 40px;
 
 }
