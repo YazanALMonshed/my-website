@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -27,18 +27,20 @@ const Layout = ({ children }) => {
     <div>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div className="background-img">
+        <div className="container">
           <div className="section-header">
               <nav className="navbar-home">
                   <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Concat</a></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/concat">Concat</Link></li>
+                    <li><Link to="/work">Work</Link></li>
                   </ul>
               </nav>
               <div className="intro-about-me">
                   <h1>Yazan Al Monshed</h1>
                   <p>web developer & software developer</p>
               </div>
+          </div>
           </div>
       </div>
     </div>
