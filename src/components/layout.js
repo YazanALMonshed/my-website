@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
               </nav>
               <div className="intro-about-me">
                   <h1>Yazan Al Monshed</h1>
-                  <p>this is me work hard in my self here</p>
+                  <p>web developer & software developer</p>
               </div>
           </div>
       </div>
