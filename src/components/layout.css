@@ -620,3 +620,49 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.background-img  {
+  background: url('../images/me.png');
+  background-size: cover;
+  background-position: 50% 10%;
+
+  height: 100vh;
+}
+
+.background-img .section-header {
+  padding: 30px;
+
+}
+
+.background-img .navbar-home ul {
+
+    list-style-type: none;
+
+}
+
+.background-img .navbar-home ul li {
+    display: inline-block;
+    padding: 30px;
+
+}
+
+.background-img .navbar-home ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.background-img  .intro-about-me {
+   padding: 30px;
+}
+
+.background-img  .intro-about-me h1, p  {
+  margin-left: 60px;
+  margin-top: 40px;
+
+}
+  
+.background-img  .intro-about-me h1 {
+  font-size: 3.4rem;
+}
